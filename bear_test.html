@@ -1,0 +1,82 @@
+<!--Doctype tell the browser what version of HTML is being run. -->
+<!DOCTYPE html>
+<!--The HTML tags show the browser that everything in between these tags is to be
+interpreted as HTML code. -->
+<html>
+  <!-- The HEAD and TITLE tags are what text will be shown on the tab in the browser. -->
+  <head>
+    <title>Brown Bear Information</title>
+  </head>
+  <!-- The body tag is what is to be displayed on the webpage. Every piece of info should be
+  within these tags. THERE CAN BE ONLY ONE BODY ELEMENT -->
+  <body>
+    <!-- The H tags are used for heading up. Like a headline on a newspaper for example.
+    These range from h1 to h6. -->
+    <h1>The Brown Bear</h1>
+      <!-- The below <a> tags contain the #links. Thes are the tags that are within the <div>
+      tags -->
+      <a href="#introduction">Introduction</a>
+      <a href="#habitat">Habitat</a>
+      <a href="#media">Media</a>
+    <!-- Div Tags act as containers for HTML elements. With the ID variable it can be manipulated
+    or styled with Javascript or CSS respectively. -->
+    <div id="introduction">
+      <h2>About Brown Bears</h2>
+      <!-- The p tag is for paragraph. This is the main text of the specific division/body of the
+      code. -->
+      <p>The brown bear (<em>Ursus arctos</em>) <!-- EM tags make text italic. --> is native to
+        parts of northern Eurasia and North America. Its conservation
+        status is currently <strong>Least Concern</strong>.<!-- STRONG tags make text bold. -->
+        <br /><br /> <!-- BR tags do not need closing tags. They create breaks in the line of the
+        paragraph. -->
+        There are many subspecies within the brown bear species, including the
+        Atlas bear and the Himalayan brown bear.</p>
+      <!-- The A tag is a hyperlink tab. href mean 'hyperlink reference and the link in quotations.
+      The text between the open and close tags is what will be displayed on the browser.
+      The target attribute set to _blank opens the hyperlink in a new page. -->
+      <a href="https://en.wikipedia.org/wiki/Brown_bear" target="_blank">Learn More</a>
+      <h3>Species</h3>
+      <!-- UL tags stand for Unordered Lists. Every item listed here (using th <li></li> tags
+      will be displayed with bullet points. -->
+      <ul>
+        <li>Arctos</li>
+        <li>Collarus</li>
+        <li>Horribilis</li>
+        <li>Nelsoni (extinct)</li>
+      </ul>
+      <h3>Features</h3>
+      <p>Brown bears are not always completely brown. Some can be reddish or yellowish.
+        They have very large, curved claws and huge paws. Male brown bears are often
+        30% larger than female brown bears. They can range from 5 feet to 9 feet from
+        head to toe.</p>
+    </div>
+    <div id="habitat">
+      <h2>Habitat</h2>
+      <h3>Countries with Large Brown Bear Populations</h3>
+      <!-- OL tags stand for Ordered Lists. Exactly the same as UL above, but they will be displayed
+      with numbers instead of bullet points. -->
+      <ol>
+        <li>Russia</li>
+        <li>United States</li>
+        <li>Canada</li>
+      </ol>
+      <h3>Countries with Small Brown Bear Populations</h3>
+      <p>Some countries with smaller brown bear populations include
+        Armenia, Belarus, Bulgaria, China, Finland, France,
+        Greece, India, Japan, Nepal, Poland, Romania, Slovenia,
+        Turkmenistan, and Uzbekistan.</p>
+    </div>
+    <div id="media">
+      <h2>Media</h2>
+      <!-- IMG tags contain photos used for the website. These are unique as they do not need
+      a closing tag. SRC stand for source and the hyperlink within quotations will be where the photo is taken
+      from. -->
+      <img src="https://content.codecademy.com/courses/web-101/web101-image_brownbear.jpg" />
+      <!-- Video is the same as img above, however it has width and height of the video used
+      (although does not need this) and controls to pause, play etc the video. It requires a closing
+      tag. -->
+      <video src="https://content.codecademy.com/courses/freelance-1/unit-1/lesson-2/htmlcss1-vid_brown-bear.mp4"
+             width="320" height="240" controls>Video not supported</video>
+    </div>
+  </body>
+</html>
